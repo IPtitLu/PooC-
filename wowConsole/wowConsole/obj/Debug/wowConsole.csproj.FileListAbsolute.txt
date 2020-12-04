@@ -1,0 +1,7 @@
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\obj\Debug\wowConsole.csprojAssemblyReference.cache
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\obj\Debug\wowConsole.csproj.CoreCompileInputs.cache
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\bin\Debug\wowConsole.exe.config
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\bin\Debug\wowConsole.exe
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\bin\Debug\wowConsole.pdb
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\obj\Debug\wowConsole.exe
+C:\Users\33643\Desktop\exoPOO\wowConsole\wowConsole\obj\Debug\wowConsole.pdb
