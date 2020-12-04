@@ -18,8 +18,13 @@ namespace wowConsole
             this.nom = unNom;
             this.force = uneForce;
             this.vie = uneVie;
-            this.arme = uneArme;        }
+            this.arme = uneArme;   
+        }
 
+        public void setVie(int vie)
+        {
+            this.vie = vie;
+        }
         public void combattre(Perso defenseur)
         {
 
@@ -59,7 +64,7 @@ namespace wowConsole
             int degatMin = this.arme.getDegatMin();
             int degatMax = this.arme.getDegatMax();
             int coup = rnd.Next(degatMin, degatMax);
-            defenseur.vie = defenseur.vie - coup;
+            defenseur.setVie(defenseur.vie - coup);
         }
     }
 }
