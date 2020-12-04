@@ -26,8 +26,8 @@ namespace wowConsole
             while (this.vie >0 && defenseur.vie > 0)
             {
 
-                Console.Write(" " + this.nom + " vie : " + defenseur.vie + " ");
-                Console.Write(" " + defenseur.nom + "vie : " + this.vie + " ");
+                Console.WriteLine(" " + this.nom + " vie : " + defenseur.vie + " ");
+                Console.WriteLine(" " + defenseur.nom + "vie : " + this.vie + " ");
                 this.attaquer(defenseur);
                 
                 if (defenseur.vie > 0)
@@ -42,11 +42,11 @@ namespace wowConsole
                 } 
                 if(defenseur.vie <= 0)
                 {
-                    Console.Write("" + this.nom + " Win");
+                    Console.WriteLine("" + this.nom + " Win");
                 }
                 if(this.vie <= 0)
                 {
-                    Console.Write("" + this.nom + " Lose");
+                    Console.WriteLine("" + this.nom + " Lose");
                 }
                 
             }
