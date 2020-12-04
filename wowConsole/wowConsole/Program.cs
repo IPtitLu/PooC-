@@ -16,7 +16,7 @@ namespace wowConsole
 
             Orc Orgrimmar = new Orc(2, "Orgrimmar", 9, 80, masse);
             Humain Arthas = new Humain("lumiere", "Arthas", 6, 112, epee);
-            Humain Legolas = new Humain("rapidite", "Arthas", 7, 76, arc);
+            Humain Legolas = new Humain("rapidite", "Legolas", 7, 76, arc);
 
             Orgrimmar.combattre(Arthas);
             Orgrimmar.combattre(Legolas);

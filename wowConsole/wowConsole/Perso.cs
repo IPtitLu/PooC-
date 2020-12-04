@@ -27,7 +27,7 @@ namespace wowConsole
             {
 
                 Console.WriteLine(" " + this.nom + " vie : " + defenseur.vie + " ");
-                Console.WriteLine(" " + defenseur.nom + "vie : " + this.vie + " ");
+                Console.WriteLine(" " + defenseur.nom + " vie : " + this.vie + " ");
                 this.attaquer(defenseur);
                 
                 if (defenseur.vie > 0)
